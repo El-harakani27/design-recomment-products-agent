@@ -1,0 +1,3077 @@
+{
+  "catalog_version": "1.0.0",
+  "currency": "EUR",
+  "store": "Casa Nord",
+  "note": "Mock catalog of objective product facts only. No recommendation logic is stored here - the agent reasons from the room image plus these facts. Images are deterministic placeholders (picsum.photos seeded by SKU).",
+  "products": [
+    {
+      "id": "CT-001",
+      "sku": "NRD-CT-1200-OAK",
+      "name": "Norrland Oval Coffee Table",
+      "brand": "Nordhem",
+      "category": "coffee_table",
+      "short_description": "Oval solid-oak coffee table with softly tapered legs and a low, calm profile.",
+      "description": "A 120 cm oval top in FSC solid oak, hand-finished with a natural oil that keeps the grain visible and matte. The rounded silhouette removes hard corners from the centre of the room, which makes it forgiving in tight seating arrangements and in homes with small children.",
+      "price": {
+        "amount": 399.0,
+        "sale_amount": 349.0,
+        "on_sale": true,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 120,
+        "depth": 60,
+        "height": 40
+      },
+      "weight_kg": 23.5,
+      "materials": [
+        "solid_oak"
+      ],
+      "primary_material": "solid_oak",
+      "finish": "natural_oil",
+      "colors": [
+        {
+          "name": "Natural Oak",
+          "hex": "#D7BC94",
+          "family": "light_wood"
+        }
+      ],
+      "styles": [
+        "scandinavian",
+        "japandi",
+        "minimalist"
+      ],
+      "room_types": [
+        "living_room",
+        "studio_apartment"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 20
+      },
+      "attributes": {},
+      "care": "Wipe with a damp cloth; re-oil once a year.",
+      "rating": 4.7,
+      "reviews_count": 214,
+      "stock": {
+        "in_stock": true,
+        "quantity": 42,
+        "lead_time_days": 3
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/nrd-ct-1200-oak-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/nrd-ct-1200-oak-2/1200/900",
+          "https://picsum.photos/seed/nrd-ct-1200-oak-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/norrland-oval-coffee-table",
+      "tags": [
+        "oval",
+        "oak",
+        "low profile",
+        "kid friendly",
+        "no sharp corners"
+      ]
+    },
+    {
+      "id": "CT-002",
+      "sku": "HLD-CT-NEST-WHT",
+      "name": "Halden Nesting Coffee Tables (Set of 2)",
+      "brand": "Halden",
+      "category": "coffee_table",
+      "short_description": "Two stackable lacquered tables that split apart when you need more surface.",
+      "description": "A larger 80 cm square table and a 55 cm companion that tucks underneath. Matte white lacquer over MDF with slim powder-coated steel legs. Designed for flats where the layout changes between everyday use and hosting.",
+      "price": {
+        "amount": 249.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 80,
+        "depth": 80,
+        "height": 42
+      },
+      "weight_kg": 18.0,
+      "materials": [
+        "mdf_lacquer",
+        "powder_coated_steel"
+      ],
+      "primary_material": "mdf_lacquer",
+      "finish": "matte_lacquer",
+      "colors": [
+        {
+          "name": "Chalk White",
+          "hex": "#F5F3EF",
+          "family": "white"
+        }
+      ],
+      "styles": [
+        "minimalist",
+        "scandinavian",
+        "contemporary"
+      ],
+      "room_types": [
+        "living_room",
+        "studio_apartment",
+        "home_office"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 30
+      },
+      "attributes": {
+        "pieces": 2,
+        "nesting": true
+      },
+      "care": "Non-abrasive cleaner only; lacquer scratches under grit.",
+      "rating": 4.3,
+      "reviews_count": 386,
+      "stock": {
+        "in_stock": true,
+        "quantity": 120,
+        "lead_time_days": 2
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/hld-ct-nest-wht-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/hld-ct-nest-wht-2/1200/900",
+          "https://picsum.photos/seed/hld-ct-nest-wht-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/halden-nesting-coffee-tables",
+      "tags": [
+        "nesting",
+        "small space",
+        "white",
+        "modular"
+      ]
+    },
+    {
+      "id": "CT-003",
+      "sku": "FBK-CT-1100-BLK",
+      "name": "Fabrik Forge Coffee Table",
+      "brand": "Fabrik No.7",
+      "category": "coffee_table",
+      "short_description": "Reclaimed pine top on a welded black steel frame with a lower storage shelf.",
+      "description": "A 110 cm plank top of reclaimed pine, each piece retaining nail holes and saw marks, mounted on a 4 mm powder-coated steel base. The open lower shelf takes books, trays or baskets.",
+      "price": {
+        "amount": 329.0,
+        "sale_amount": 289.0,
+        "on_sale": true,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 110,
+        "depth": 60,
+        "height": 45
+      },
+      "weight_kg": 31.0,
+      "materials": [
+        "solid_pine",
+        "powder_coated_steel"
+      ],
+      "primary_material": "solid_pine",
+      "finish": "wax_oil",
+      "colors": [
+        {
+          "name": "Aged Pine",
+          "hex": "#A9825A",
+          "family": "warm_wood"
+        },
+        {
+          "name": "Matte Black",
+          "hex": "#1B1B1B",
+          "family": "black"
+        }
+      ],
+      "styles": [
+        "industrial",
+        "rustic_farmhouse"
+      ],
+      "room_types": [
+        "living_room",
+        "studio_apartment"
+      ],
+      "storage_type": "open_shelf",
+      "features": {
+        "drawers": 0,
+        "shelves": 1,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 25
+      },
+      "attributes": {},
+      "care": "Re-wax annually; wipe spills immediately, reclaimed pine is porous.",
+      "rating": 4.5,
+      "reviews_count": 158,
+      "stock": {
+        "in_stock": true,
+        "quantity": 27,
+        "lead_time_days": 5
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/fbk-ct-1100-blk-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/fbk-ct-1100-blk-2/1200/900",
+          "https://picsum.photos/seed/fbk-ct-1100-blk-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/fabrik-forge-coffee-table",
+      "tags": [
+        "industrial",
+        "reclaimed",
+        "storage shelf",
+        "black metal"
+      ]
+    },
+    {
+      "id": "CT-004",
+      "sku": "IVR-CT-100R-MAR",
+      "name": "Bellucci Round Marble Coffee Table",
+      "brand": "Ivora",
+      "category": "coffee_table",
+      "short_description": "Honed Carrara marble disc on a brushed brass pedestal.",
+      "description": "A 100 cm round top cut from 20 mm honed Carrara, each slab uniquely veined, resting on a brushed brass column base. Substantial and quiet - the veining does the decorating.",
+      "price": {
+        "amount": 899.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "premium"
+      },
+      "dimensions_cm": {
+        "width": 100,
+        "depth": 100,
+        "height": 38
+      },
+      "weight_kg": 58.0,
+      "materials": [
+        "carrara_marble",
+        "brushed_brass"
+      ],
+      "primary_material": "carrara_marble",
+      "finish": "honed",
+      "colors": [
+        {
+          "name": "Carrara White",
+          "hex": "#EDEAE4",
+          "family": "marble_white"
+        },
+        {
+          "name": "Brushed Brass",
+          "hex": "#B08A46",
+          "family": "brass_gold"
+        }
+      ],
+      "styles": [
+        "art_deco",
+        "contemporary",
+        "mid_century_modern"
+      ],
+      "room_types": [
+        "living_room"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 15
+      },
+      "attributes": {
+        "natural_stone": true,
+        "two_person_lift": true
+      },
+      "care": "Seal every 12 months; blot acidic spills at once.",
+      "rating": 4.8,
+      "reviews_count": 96,
+      "stock": {
+        "in_stock": false,
+        "quantity": 0,
+        "lead_time_days": 21
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/ivr-ct-100r-mar-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/ivr-ct-100r-mar-2/1200/900",
+          "https://picsum.photos/seed/ivr-ct-100r-mar-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/bellucci-round-marble-coffee-table",
+      "tags": [
+        "marble",
+        "brass",
+        "round",
+        "statement piece"
+      ]
+    },
+    {
+      "id": "CT-005",
+      "sku": "CSM-CT-900-RAT",
+      "name": "Kiona Rattan Coffee Table",
+      "brand": "Casa Mira",
+      "category": "coffee_table",
+      "short_description": "Square mango-wood frame with a woven cane lower deck.",
+      "description": "A 90 cm square table in solid mango wood with a hand-woven cane shelf below. The weave keeps the piece visually light despite its square footprint.",
+      "price": {
+        "amount": 279.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 90,
+        "depth": 90,
+        "height": 40
+      },
+      "weight_kg": 21.0,
+      "materials": [
+        "mango_wood",
+        "woven_cane"
+      ],
+      "primary_material": "mango_wood",
+      "finish": "natural_oil",
+      "colors": [
+        {
+          "name": "Honey Mango",
+          "hex": "#B07D49",
+          "family": "warm_wood"
+        }
+      ],
+      "styles": [
+        "bohemian",
+        "coastal"
+      ],
+      "room_types": [
+        "living_room",
+        "studio_apartment"
+      ],
+      "storage_type": "open_shelf",
+      "features": {
+        "drawers": 0,
+        "shelves": 1,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 20
+      },
+      "attributes": {
+        "handwoven": true
+      },
+      "care": "Keep out of direct sun; cane dries and cracks.",
+      "rating": 4.4,
+      "reviews_count": 132,
+      "stock": {
+        "in_stock": true,
+        "quantity": 38,
+        "lead_time_days": 4
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/csm-ct-900-rat-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/csm-ct-900-rat-2/1200/900",
+          "https://picsum.photos/seed/csm-ct-900-rat-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/kiona-rattan-coffee-table",
+      "tags": [
+        "rattan",
+        "cane",
+        "boho",
+        "warm wood"
+      ]
+    },
+    {
+      "id": "CT-006",
+      "sku": "HLD-CT-1200-GLS",
+      "name": "Aero Glass Coffee Table",
+      "brand": "Halden",
+      "category": "coffee_table",
+      "short_description": "12 mm tempered glass on a chromed tubular frame.",
+      "description": "A 120 x 65 cm tempered glass top with polished edges over a chrome tube base. Visually it takes up almost no space, which is the entire point.",
+      "price": {
+        "amount": 359.0,
+        "sale_amount": 299.0,
+        "on_sale": true,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 120,
+        "depth": 65,
+        "height": 40
+      },
+      "weight_kg": 26.0,
+      "materials": [
+        "tempered_glass",
+        "chrome_steel"
+      ],
+      "primary_material": "tempered_glass",
+      "finish": "polished",
+      "colors": [
+        {
+          "name": "Clear",
+          "hex": "#E8F0F2",
+          "family": "glass_clear"
+        },
+        {
+          "name": "Chrome",
+          "hex": "#C0C4C8",
+          "family": "chrome_silver"
+        }
+      ],
+      "styles": [
+        "contemporary",
+        "minimalist"
+      ],
+      "room_types": [
+        "living_room",
+        "home_office"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 20
+      },
+      "attributes": {
+        "tempered": true,
+        "shows_fingerprints": true
+      },
+      "care": "Glass cleaner, microfibre cloth.",
+      "rating": 4.1,
+      "reviews_count": 204,
+      "stock": {
+        "in_stock": true,
+        "quantity": 54,
+        "lead_time_days": 3
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/hld-ct-1200-gls-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/hld-ct-1200-gls-2/1200/900",
+          "https://picsum.photos/seed/hld-ct-1200-gls-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/aero-glass-coffee-table",
+      "tags": [
+        "glass",
+        "chrome",
+        "visually light",
+        "small space"
+      ]
+    },
+    {
+      "id": "CT-007",
+      "sku": "TRA-CT-1000-CNC",
+      "name": "Mono Concrete Block Table",
+      "brand": "Terra Studio",
+      "category": "coffee_table",
+      "short_description": "Monolithic micro-cement block with a recessed plinth.",
+      "description": "A hand-cast fibre-reinforced micro-cement block, 100 x 50 cm, with a shadow-gap plinth so it appears to float a few centimetres off the floor. Sealed matte grey with visible casting variation.",
+      "price": {
+        "amount": 549.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 100,
+        "depth": 50,
+        "height": 35
+      },
+      "weight_kg": 46.0,
+      "materials": [
+        "micro_cement"
+      ],
+      "primary_material": "micro_cement",
+      "finish": "raw",
+      "colors": [
+        {
+          "name": "Cast Grey",
+          "hex": "#9B9894",
+          "family": "concrete_grey"
+        }
+      ],
+      "styles": [
+        "brutalist_concrete",
+        "minimalist",
+        "contemporary"
+      ],
+      "room_types": [
+        "living_room"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": false,
+        "assembly_minutes": 0
+      },
+      "attributes": {
+        "handcast": true,
+        "two_person_lift": true
+      },
+      "care": "Re-seal every two years; avoid citrus cleaners.",
+      "rating": 4.6,
+      "reviews_count": 63,
+      "stock": {
+        "in_stock": true,
+        "quantity": 9,
+        "lead_time_days": 14
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/tra-ct-1000-cnc-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/tra-ct-1000-cnc-2/1200/900",
+          "https://picsum.photos/seed/tra-ct-1000-cnc-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/mono-concrete-block-table",
+      "tags": [
+        "concrete",
+        "brutalist",
+        "monolith",
+        "heavy"
+      ]
+    },
+    {
+      "id": "DT-001",
+      "sku": "NRD-DT-EXT-OAK",
+      "name": "Skagen Extendable Dining Table",
+      "brand": "Nordhem",
+      "category": "dining_table",
+      "short_description": "Oak-veneer table that extends from 160 to 210 cm with a butterfly leaf.",
+      "description": "Seats six every day and eight when the integrated butterfly leaf is folded out - no separate panel to store. Oak veneer over an engineered core on solid oak legs, with a rounded edge profile.",
+      "price": {
+        "amount": 749.0,
+        "sale_amount": 649.0,
+        "on_sale": true,
+        "bucket": "premium"
+      },
+      "dimensions_cm": {
+        "width": 160,
+        "depth": 90,
+        "height": 75
+      },
+      "weight_kg": 48.0,
+      "materials": [
+        "oak_veneer",
+        "solid_oak"
+      ],
+      "primary_material": "oak_veneer",
+      "finish": "matte_lacquer",
+      "colors": [
+        {
+          "name": "Light Oak",
+          "hex": "#D7BC94",
+          "family": "light_wood"
+        }
+      ],
+      "styles": [
+        "scandinavian",
+        "minimalist",
+        "japandi"
+      ],
+      "room_types": [
+        "dining_room",
+        "living_room",
+        "studio_apartment"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": true,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 45
+      },
+      "attributes": {
+        "seats": 6,
+        "seats_extended": 8,
+        "extended_width_cm": 210
+      },
+      "care": "Veneer - use a tablecloth for hot dishes.",
+      "rating": 4.6,
+      "reviews_count": 341,
+      "stock": {
+        "in_stock": true,
+        "quantity": 22,
+        "lead_time_days": 7
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/nrd-dt-ext-oak-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/nrd-dt-ext-oak-2/1200/900",
+          "https://picsum.photos/seed/nrd-dt-ext-oak-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/skagen-extendable-dining-table",
+      "tags": [
+        "extendable",
+        "seats 8",
+        "oak",
+        "open plan"
+      ]
+    },
+    {
+      "id": "DT-002",
+      "sku": "VSS-DT-2000-PIN",
+      "name": "Voss Trestle Dining Table",
+      "brand": "Voss Manufaktur",
+      "category": "dining_table",
+      "short_description": "200 cm solid pine plank top on a chunky trestle base.",
+      "description": "Four 40 mm pine planks with breadboard ends and a visible joint line, on a braced trestle base. Finished in a hard-wax oil that ages rather than wears.",
+      "price": {
+        "amount": 899.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "premium"
+      },
+      "dimensions_cm": {
+        "width": 200,
+        "depth": 100,
+        "height": 76
+      },
+      "weight_kg": 72.0,
+      "materials": [
+        "solid_pine"
+      ],
+      "primary_material": "solid_pine",
+      "finish": "wax_oil",
+      "colors": [
+        {
+          "name": "Weathered Pine",
+          "hex": "#A9825A",
+          "family": "warm_wood"
+        }
+      ],
+      "styles": [
+        "rustic_farmhouse",
+        "industrial",
+        "traditional"
+      ],
+      "room_types": [
+        "dining_room"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 40
+      },
+      "attributes": {
+        "seats": 8,
+        "two_person_lift": true
+      },
+      "care": "Refresh with hard-wax oil yearly.",
+      "rating": 4.7,
+      "reviews_count": 118,
+      "stock": {
+        "in_stock": false,
+        "quantity": 0,
+        "lead_time_days": 35
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/vss-dt-2000-pin-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/vss-dt-2000-pin-2/1200/900",
+          "https://picsum.photos/seed/vss-dt-2000-pin-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/voss-trestle-dining-table",
+      "tags": [
+        "farmhouse",
+        "solid wood",
+        "seats 8",
+        "trestle"
+      ]
+    },
+    {
+      "id": "DT-003",
+      "sku": "LMO-DT-120R-WAL",
+      "name": "Lumen Round Walnut Dining Table",
+      "brand": "Lumen & Oak",
+      "category": "dining_table",
+      "short_description": "120 cm round walnut top on splayed mid-century legs.",
+      "description": "A circular walnut-veneer top with a chamfered edge on four solid-beech legs splayed at 8 degrees. Seats four comfortably, five at a push, with no corners to walk into.",
+      "price": {
+        "amount": 629.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "premium"
+      },
+      "dimensions_cm": {
+        "width": 120,
+        "depth": 120,
+        "height": 75
+      },
+      "weight_kg": 34.0,
+      "materials": [
+        "walnut_veneer"
+      ],
+      "primary_material": "walnut_veneer",
+      "finish": "satin_lacquer",
+      "colors": [
+        {
+          "name": "American Walnut",
+          "hex": "#5A3A22",
+          "family": "dark_wood"
+        }
+      ],
+      "styles": [
+        "mid_century_modern",
+        "contemporary"
+      ],
+      "room_types": [
+        "dining_room",
+        "living_room",
+        "studio_apartment"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 25
+      },
+      "attributes": {
+        "seats": 4
+      },
+      "care": "Coasters recommended; satin lacquer marks with heat.",
+      "rating": 4.5,
+      "reviews_count": 177,
+      "stock": {
+        "in_stock": true,
+        "quantity": 19,
+        "lead_time_days": 6
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/lmo-dt-120r-wal-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/lmo-dt-120r-wal-2/1200/900",
+          "https://picsum.photos/seed/lmo-dt-120r-wal-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/lumen-round-walnut-dining-table",
+      "tags": [
+        "round",
+        "walnut",
+        "mid century",
+        "seats 4"
+      ]
+    },
+    {
+      "id": "DT-004",
+      "sku": "TRA-DT-1800-SIN",
+      "name": "Petra Sintered Stone Dining Table",
+      "brand": "Terra Studio",
+      "category": "dining_table",
+      "short_description": "180 cm sintered stone top with a marble-look surface on a matte black steel frame.",
+      "description": "A 12 mm sintered stone surface - heat-proof, scratch-resistant and non-porous - with a mitred edge that reads as a solid 40 mm slab, carried on a slim matte black steel frame.",
+      "price": {
+        "amount": 1499.0,
+        "sale_amount": 1299.0,
+        "on_sale": true,
+        "bucket": "luxury"
+      },
+      "dimensions_cm": {
+        "width": 180,
+        "depth": 90,
+        "height": 75
+      },
+      "weight_kg": 88.0,
+      "materials": [
+        "sintered_stone",
+        "powder_coated_steel"
+      ],
+      "primary_material": "sintered_stone",
+      "finish": "polished",
+      "colors": [
+        {
+          "name": "Statuario White",
+          "hex": "#EDEAE4",
+          "family": "marble_white"
+        },
+        {
+          "name": "Matte Black",
+          "hex": "#1B1B1B",
+          "family": "black"
+        }
+      ],
+      "styles": [
+        "contemporary",
+        "minimalist",
+        "art_deco"
+      ],
+      "room_types": [
+        "dining_room",
+        "living_room"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 35
+      },
+      "attributes": {
+        "seats": 6,
+        "heat_resistant": true,
+        "two_person_lift": true
+      },
+      "care": "Any household cleaner; genuinely low maintenance.",
+      "rating": 4.9,
+      "reviews_count": 74,
+      "stock": {
+        "in_stock": true,
+        "quantity": 6,
+        "lead_time_days": 18
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/tra-dt-1800-sin-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/tra-dt-1800-sin-2/1200/900",
+          "https://picsum.photos/seed/tra-dt-1800-sin-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/petra-sintered-stone-dining-table",
+      "tags": [
+        "sintered stone",
+        "marble look",
+        "heat proof",
+        "seats 6"
+      ]
+    },
+    {
+      "id": "DT-005",
+      "sku": "HLD-DT-DROP-WHT",
+      "name": "Kompakt Drop-leaf Dining Table",
+      "brand": "Halden",
+      "category": "dining_table",
+      "short_description": "Wall-hugging table that folds from 80 to 140 cm for guests.",
+      "description": "Two hinged leaves take the table from a 80 cm two-seater against the wall to a 140 cm four-seater in the middle of the room. White lacquer over MDF with beech legs.",
+      "price": {
+        "amount": 279.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 80,
+        "depth": 80,
+        "height": 74
+      },
+      "weight_kg": 26.0,
+      "materials": [
+        "mdf_lacquer"
+      ],
+      "primary_material": "mdf_lacquer",
+      "finish": "matte_lacquer",
+      "colors": [
+        {
+          "name": "Chalk White",
+          "hex": "#F5F3EF",
+          "family": "white"
+        }
+      ],
+      "styles": [
+        "minimalist",
+        "scandinavian"
+      ],
+      "room_types": [
+        "studio_apartment",
+        "dining_room",
+        "home_office"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": true,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 35
+      },
+      "attributes": {
+        "seats": 2,
+        "seats_extended": 4,
+        "extended_width_cm": 140
+      },
+      "care": "Wipe clean; do not leave leaves down under weight.",
+      "rating": 4.2,
+      "reviews_count": 265,
+      "stock": {
+        "in_stock": true,
+        "quantity": 88,
+        "lead_time_days": 2
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/hld-dt-drop-wht-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/hld-dt-drop-wht-2/1200/900",
+          "https://picsum.photos/seed/hld-dt-drop-wht-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/kompakt-drop-leaf-dining-table",
+      "tags": [
+        "folding",
+        "small space",
+        "studio",
+        "budget"
+      ]
+    },
+    {
+      "id": "DT-006",
+      "sku": "IVR-DT-140R-TRV",
+      "name": "Aurea Fluted Pedestal Dining Table",
+      "brand": "Ivora",
+      "category": "dining_table",
+      "short_description": "140 cm round top on a fluted pedestal column, travertine-look finish.",
+      "description": "A single sculptural pedestal with vertical fluting supports a 140 cm round top in a warm travertine-effect composite. No legs at the perimeter, so chairs slide anywhere around it.",
+      "price": {
+        "amount": 1099.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "premium"
+      },
+      "dimensions_cm": {
+        "width": 140,
+        "depth": 140,
+        "height": 75
+      },
+      "weight_kg": 79.0,
+      "materials": [
+        "mdf_lacquer",
+        "travertine"
+      ],
+      "primary_material": "travertine",
+      "finish": "honed",
+      "colors": [
+        {
+          "name": "Travertine Cream",
+          "hex": "#D9C7AE",
+          "family": "beige"
+        }
+      ],
+      "styles": [
+        "art_deco",
+        "contemporary",
+        "japandi"
+      ],
+      "room_types": [
+        "dining_room",
+        "living_room"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 30
+      },
+      "attributes": {
+        "seats": 6,
+        "two_person_lift": true
+      },
+      "care": "Vacuum the flutes with a brush head; seal annually.",
+      "rating": 4.6,
+      "reviews_count": 51,
+      "stock": {
+        "in_stock": true,
+        "quantity": 12,
+        "lead_time_days": 15
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/ivr-dt-140r-trv-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/ivr-dt-140r-trv-2/1200/900",
+          "https://picsum.photos/seed/ivr-dt-140r-trv-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/aurea-fluted-pedestal-dining-table",
+      "tags": [
+        "pedestal",
+        "fluted",
+        "travertine",
+        "seats 6"
+      ]
+    },
+    {
+      "id": "ST-001",
+      "sku": "NRD-ST-45R-ASH",
+      "name": "Pebble Side Table",
+      "brand": "Nordhem",
+      "category": "side_table",
+      "short_description": "Small round ash table with a rounded-over edge and three legs.",
+      "description": "A 45 cm ash top with a fully rounded edge on three slim legs. Light enough to move with one hand, tall enough to serve a standard sofa arm.",
+      "price": {
+        "amount": 139.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "budget"
+      },
+      "dimensions_cm": {
+        "width": 45,
+        "depth": 45,
+        "height": 52
+      },
+      "weight_kg": 6.2,
+      "materials": [
+        "solid_ash"
+      ],
+      "primary_material": "solid_ash",
+      "finish": "natural_oil",
+      "colors": [
+        {
+          "name": "Pale Ash",
+          "hex": "#DCC9A8",
+          "family": "light_wood"
+        }
+      ],
+      "styles": [
+        "japandi",
+        "scandinavian",
+        "minimalist"
+      ],
+      "room_types": [
+        "living_room",
+        "bedroom",
+        "home_office"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 10
+      },
+      "attributes": {},
+      "care": "Wipe and re-oil as needed.",
+      "rating": 4.5,
+      "reviews_count": 402,
+      "stock": {
+        "in_stock": true,
+        "quantity": 156,
+        "lead_time_days": 2
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/nrd-st-45r-ash-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/nrd-st-45r-ash-2/1200/900",
+          "https://picsum.photos/seed/nrd-st-45r-ash-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/pebble-side-table",
+      "tags": [
+        "side table",
+        "round",
+        "light wood",
+        "nightstand"
+      ]
+    },
+    {
+      "id": "ST-002",
+      "sku": "FBK-ST-C-BLK",
+      "name": "Lattice C-Table",
+      "brand": "Fabrik No.7",
+      "category": "side_table",
+      "short_description": "C-shaped sofa table that slides its base under the seat.",
+      "description": "A black steel C-frame with an oak top that slides beneath a sofa or bed so the surface sits over your lap. 60 cm tall, 40 cm wide.",
+      "price": {
+        "amount": 99.0,
+        "sale_amount": 79.0,
+        "on_sale": true,
+        "bucket": "budget"
+      },
+      "dimensions_cm": {
+        "width": 40,
+        "depth": 35,
+        "height": 60
+      },
+      "weight_kg": 7.5,
+      "materials": [
+        "powder_coated_steel",
+        "oak_veneer"
+      ],
+      "primary_material": "powder_coated_steel",
+      "finish": "powder_coated",
+      "colors": [
+        {
+          "name": "Matte Black",
+          "hex": "#1B1B1B",
+          "family": "black"
+        },
+        {
+          "name": "Oak",
+          "hex": "#D7BC94",
+          "family": "light_wood"
+        }
+      ],
+      "styles": [
+        "industrial",
+        "minimalist",
+        "contemporary"
+      ],
+      "room_types": [
+        "living_room",
+        "bedroom",
+        "home_office",
+        "studio_apartment"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 10
+      },
+      "attributes": {
+        "laptop_friendly": true,
+        "requires_sofa_clearance_cm": 12
+      },
+      "care": "Wipe clean.",
+      "rating": 4.3,
+      "reviews_count": 511,
+      "stock": {
+        "in_stock": true,
+        "quantity": 210,
+        "lead_time_days": 2
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/fbk-st-c-blk-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/fbk-st-c-blk-2/1200/900",
+          "https://picsum.photos/seed/fbk-st-c-blk-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/lattice-c-table",
+      "tags": [
+        "c-table",
+        "laptop",
+        "budget",
+        "small space"
+      ]
+    },
+    {
+      "id": "ST-003",
+      "sku": "IVR-ST-40R-MAR",
+      "name": "Marmo Drum Side Table",
+      "brand": "Ivora",
+      "category": "side_table",
+      "short_description": "Solid marble drum in a single cylindrical block.",
+      "description": "A 40 cm diameter, 50 cm tall cylinder cut from a single block of grey-veined marble. No joints, no hardware.",
+      "price": {
+        "amount": 329.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 40,
+        "depth": 40,
+        "height": 50
+      },
+      "weight_kg": 34.0,
+      "materials": [
+        "carrara_marble"
+      ],
+      "primary_material": "carrara_marble",
+      "finish": "honed",
+      "colors": [
+        {
+          "name": "Grey Veined Marble",
+          "hex": "#C9C6C0",
+          "family": "marble_white"
+        }
+      ],
+      "styles": [
+        "art_deco",
+        "contemporary",
+        "brutalist_concrete"
+      ],
+      "room_types": [
+        "living_room",
+        "bedroom"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": false,
+        "assembly_minutes": 0
+      },
+      "attributes": {
+        "natural_stone": true,
+        "single_block": true
+      },
+      "care": "Seal annually; blot spills.",
+      "rating": 4.7,
+      "reviews_count": 88,
+      "stock": {
+        "in_stock": true,
+        "quantity": 24,
+        "lead_time_days": 9
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/ivr-st-40r-mar-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/ivr-st-40r-mar-2/1200/900",
+          "https://picsum.photos/seed/ivr-st-40r-mar-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/marmo-drum-side-table",
+      "tags": [
+        "marble",
+        "drum",
+        "accent",
+        "heavy"
+      ]
+    },
+    {
+      "id": "ST-004",
+      "sku": "CSM-ST-45-CAN",
+      "name": "Tilda Cane Nightstand",
+      "brand": "Casa Mira",
+      "category": "side_table",
+      "short_description": "Compact bedside cabinet with one cane-front drawer and an open shelf.",
+      "description": "Mango wood frame, one drawer fronted in woven cane and an open niche below for a book or a glass. 45 cm wide, 55 cm tall - matches most mattress heights.",
+      "price": {
+        "amount": 189.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "budget"
+      },
+      "dimensions_cm": {
+        "width": 45,
+        "depth": 38,
+        "height": 55
+      },
+      "weight_kg": 11.0,
+      "materials": [
+        "mango_wood",
+        "woven_cane"
+      ],
+      "primary_material": "mango_wood",
+      "finish": "natural_oil",
+      "colors": [
+        {
+          "name": "Honey Mango",
+          "hex": "#B07D49",
+          "family": "warm_wood"
+        }
+      ],
+      "styles": [
+        "bohemian",
+        "coastal",
+        "mid_century_modern"
+      ],
+      "room_types": [
+        "bedroom",
+        "living_room"
+      ],
+      "storage_type": "drawers",
+      "features": {
+        "drawers": 1,
+        "shelves": 1,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 15
+      },
+      "attributes": {},
+      "care": "Keep out of direct sun.",
+      "rating": 4.4,
+      "reviews_count": 197,
+      "stock": {
+        "in_stock": true,
+        "quantity": 64,
+        "lead_time_days": 4
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/csm-st-45-can-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/csm-st-45-can-2/1200/900",
+          "https://picsum.photos/seed/csm-st-45-can-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/tilda-cane-nightstand",
+      "tags": [
+        "nightstand",
+        "cane",
+        "drawer",
+        "boho"
+      ]
+    },
+    {
+      "id": "CN-001",
+      "sku": "NRD-CN-1100-OAK",
+      "name": "Linnea Slim Console",
+      "brand": "Nordhem",
+      "category": "console_table",
+      "short_description": "32 cm deep oak console with two drawers and a lower rail shelf.",
+      "description": "A hallway console kept deliberately shallow at 32 cm so it does not narrow a corridor. Two soft-close drawers for keys and post, plus a slatted lower shelf for a basket.",
+      "price": {
+        "amount": 289.0,
+        "sale_amount": 249.0,
+        "on_sale": true,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 110,
+        "depth": 32,
+        "height": 78
+      },
+      "weight_kg": 19.0,
+      "materials": [
+        "solid_oak",
+        "oak_veneer"
+      ],
+      "primary_material": "solid_oak",
+      "finish": "matte_lacquer",
+      "colors": [
+        {
+          "name": "Natural Oak",
+          "hex": "#D7BC94",
+          "family": "light_wood"
+        }
+      ],
+      "styles": [
+        "scandinavian",
+        "japandi",
+        "minimalist"
+      ],
+      "room_types": [
+        "entryway",
+        "hallway",
+        "living_room"
+      ],
+      "storage_type": "drawers",
+      "features": {
+        "drawers": 2,
+        "shelves": 1,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 30
+      },
+      "attributes": {
+        "soft_close": true
+      },
+      "care": "Wipe with a damp cloth.",
+      "rating": 4.6,
+      "reviews_count": 233,
+      "stock": {
+        "in_stock": true,
+        "quantity": 47,
+        "lead_time_days": 3
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/nrd-cn-1100-oak-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/nrd-cn-1100-oak-2/1200/900",
+          "https://picsum.photos/seed/nrd-cn-1100-oak-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/linnea-slim-console",
+      "tags": [
+        "console",
+        "slim",
+        "hallway",
+        "drawers",
+        "oak"
+      ]
+    },
+    {
+      "id": "CN-002",
+      "sku": "FBK-CN-1200-BLK",
+      "name": "Onyx Industrial Console",
+      "brand": "Fabrik No.7",
+      "category": "console_table",
+      "short_description": "Black steel frame with two walnut-toned shelves.",
+      "description": "An open A-frame in 25 mm black steel tube with two shelves in walnut-effect board. Nothing is enclosed, so it stays visually transparent in a narrow space.",
+      "price": {
+        "amount": 349.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 120,
+        "depth": 35,
+        "height": 80
+      },
+      "weight_kg": 22.0,
+      "materials": [
+        "powder_coated_steel",
+        "walnut_veneer"
+      ],
+      "primary_material": "powder_coated_steel",
+      "finish": "powder_coated",
+      "colors": [
+        {
+          "name": "Matte Black",
+          "hex": "#1B1B1B",
+          "family": "black"
+        },
+        {
+          "name": "Walnut",
+          "hex": "#5A3A22",
+          "family": "dark_wood"
+        }
+      ],
+      "styles": [
+        "industrial",
+        "contemporary",
+        "mid_century_modern"
+      ],
+      "room_types": [
+        "entryway",
+        "hallway",
+        "living_room",
+        "dining_room"
+      ],
+      "storage_type": "open_shelf",
+      "features": {
+        "drawers": 0,
+        "shelves": 2,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 25
+      },
+      "attributes": {
+        "anti_tip_kit_included": true
+      },
+      "care": "Wipe; touch-up paint supplied for chips.",
+      "rating": 4.4,
+      "reviews_count": 141,
+      "stock": {
+        "in_stock": true,
+        "quantity": 36,
+        "lead_time_days": 4
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/fbk-cn-1200-blk-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/fbk-cn-1200-blk-2/1200/900",
+          "https://picsum.photos/seed/fbk-cn-1200-blk-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/onyx-industrial-console",
+      "tags": [
+        "console",
+        "industrial",
+        "open shelf",
+        "black"
+      ]
+    },
+    {
+      "id": "CN-003",
+      "sku": "IVR-CN-1300-CRM",
+      "name": "Verona Fluted Console",
+      "brand": "Ivora",
+      "category": "console_table",
+      "short_description": "Cream fluted cabinet doors with brushed brass hardware and legs.",
+      "description": "A 130 cm console with two fluted doors in cream lacquer, brass pin legs and an interior shelf. Closed storage that still looks like furniture rather than a cupboard.",
+      "price": {
+        "amount": 699.0,
+        "sale_amount": 629.0,
+        "on_sale": true,
+        "bucket": "premium"
+      },
+      "dimensions_cm": {
+        "width": 130,
+        "depth": 38,
+        "height": 80
+      },
+      "weight_kg": 41.0,
+      "materials": [
+        "mdf_lacquer",
+        "brushed_brass"
+      ],
+      "primary_material": "mdf_lacquer",
+      "finish": "satin_lacquer",
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#F1EBE1",
+          "family": "off_white"
+        },
+        {
+          "name": "Brushed Brass",
+          "hex": "#B08A46",
+          "family": "brass_gold"
+        }
+      ],
+      "styles": [
+        "art_deco",
+        "contemporary",
+        "traditional"
+      ],
+      "room_types": [
+        "entryway",
+        "living_room",
+        "dining_room"
+      ],
+      "storage_type": "closed_doors",
+      "features": {
+        "drawers": 0,
+        "shelves": 1,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 40
+      },
+      "attributes": {
+        "doors": 2,
+        "soft_close": true
+      },
+      "care": "Microfibre in the direction of the flutes.",
+      "rating": 4.7,
+      "reviews_count": 79,
+      "stock": {
+        "in_stock": true,
+        "quantity": 15,
+        "lead_time_days": 12
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/ivr-cn-1300-crm-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/ivr-cn-1300-crm-2/1200/900",
+          "https://picsum.photos/seed/ivr-cn-1300-crm-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/verona-fluted-console",
+      "tags": [
+        "console",
+        "fluted",
+        "brass",
+        "closed storage"
+      ]
+    },
+    {
+      "id": "CN-004",
+      "sku": "HLD-CN-900-WHT",
+      "name": "Hallway Micro Console",
+      "brand": "Halden",
+      "category": "console_table",
+      "short_description": "Only 25 cm deep - built for corridors that cannot spare the floor.",
+      "description": "A 90 x 25 cm white lacquer console with a single wide drawer. At this depth it clears a standard door swing in almost any corridor.",
+      "price": {
+        "amount": 169.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "budget"
+      },
+      "dimensions_cm": {
+        "width": 90,
+        "depth": 25,
+        "height": 76
+      },
+      "weight_kg": 13.0,
+      "materials": [
+        "mdf_lacquer"
+      ],
+      "primary_material": "mdf_lacquer",
+      "finish": "matte_lacquer",
+      "colors": [
+        {
+          "name": "Chalk White",
+          "hex": "#F5F3EF",
+          "family": "white"
+        }
+      ],
+      "styles": [
+        "minimalist",
+        "scandinavian",
+        "contemporary"
+      ],
+      "room_types": [
+        "hallway",
+        "entryway",
+        "bedroom"
+      ],
+      "storage_type": "drawers",
+      "features": {
+        "drawers": 1,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 20
+      },
+      "attributes": {
+        "anti_tip_kit_included": true
+      },
+      "care": "Wipe clean.",
+      "rating": 4.2,
+      "reviews_count": 174,
+      "stock": {
+        "in_stock": true,
+        "quantity": 92,
+        "lead_time_days": 2
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/hld-cn-900-wht-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/hld-cn-900-wht-2/1200/900",
+          "https://picsum.photos/seed/hld-cn-900-wht-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/hallway-micro-console",
+      "tags": [
+        "console",
+        "ultra slim",
+        "narrow hallway",
+        "budget"
+      ]
+    },
+    {
+      "id": "CN-005",
+      "sku": "TRA-CN-1400-TRV",
+      "name": "Terra Travertine Console",
+      "brand": "Terra Studio",
+      "category": "console_table",
+      "short_description": "Solid travertine slab console with two block legs.",
+      "description": "A 140 cm honed travertine top on two matching stone plinths. No hardware, no joints on show - three pieces of stone and gravity.",
+      "price": {
+        "amount": 1249.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "premium"
+      },
+      "dimensions_cm": {
+        "width": 140,
+        "depth": 36,
+        "height": 82
+      },
+      "weight_kg": 96.0,
+      "materials": [
+        "travertine"
+      ],
+      "primary_material": "travertine",
+      "finish": "honed",
+      "colors": [
+        {
+          "name": "Classic Travertine",
+          "hex": "#D9C7AE",
+          "family": "beige"
+        }
+      ],
+      "styles": [
+        "brutalist_concrete",
+        "contemporary",
+        "japandi",
+        "art_deco"
+      ],
+      "room_types": [
+        "entryway",
+        "living_room",
+        "dining_room"
+      ],
+      "storage_type": "none",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 20
+      },
+      "attributes": {
+        "natural_stone": true,
+        "two_person_lift": true,
+        "floor_load_check": true
+      },
+      "care": "Seal on delivery and yearly after.",
+      "rating": 4.8,
+      "reviews_count": 42,
+      "stock": {
+        "in_stock": false,
+        "quantity": 0,
+        "lead_time_days": 42
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/tra-cn-1400-trv-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/tra-cn-1400-trv-2/1200/900",
+          "https://picsum.photos/seed/tra-cn-1400-trv-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/terra-travertine-console",
+      "tags": [
+        "console",
+        "travertine",
+        "statement",
+        "no storage"
+      ]
+    },
+    {
+      "id": "CN-006",
+      "sku": "LMO-CN-1500-WAL",
+      "name": "Lumen Sofa-back Console",
+      "brand": "Lumen & Oak",
+      "category": "console_table",
+      "short_description": "150 cm long, 30 cm deep console sized to sit behind a sofa.",
+      "description": "A long, low walnut console on splayed legs, height-matched to sit just under a standard sofa back at 75 cm. Two shallow drawers and integrated cable ports for lamps.",
+      "price": {
+        "amount": 459.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 150,
+        "depth": 30,
+        "height": 75
+      },
+      "weight_kg": 24.0,
+      "materials": [
+        "walnut_veneer",
+        "solid_ash"
+      ],
+      "primary_material": "walnut_veneer",
+      "finish": "satin_lacquer",
+      "colors": [
+        {
+          "name": "American Walnut",
+          "hex": "#5A3A22",
+          "family": "dark_wood"
+        }
+      ],
+      "styles": [
+        "mid_century_modern",
+        "contemporary",
+        "traditional"
+      ],
+      "room_types": [
+        "living_room",
+        "dining_room",
+        "entryway"
+      ],
+      "storage_type": "drawers",
+      "features": {
+        "drawers": 2,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": true,
+        "assembly_required": true,
+        "assembly_minutes": 30
+      },
+      "attributes": {
+        "sofa_back_height_max_cm": 80
+      },
+      "care": "Coasters for lamps; veneer marks with moisture rings.",
+      "rating": 4.5,
+      "reviews_count": 108,
+      "stock": {
+        "in_stock": true,
+        "quantity": 21,
+        "lead_time_days": 7
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/lmo-cn-1500-wal-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/lmo-cn-1500-wal-2/1200/900",
+          "https://picsum.photos/seed/lmo-cn-1500-wal-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/lumen-sofa-back-console",
+      "tags": [
+        "console",
+        "behind sofa",
+        "walnut",
+        "open plan",
+        "cable management"
+      ]
+    },
+    {
+      "id": "TV-001",
+      "sku": "NRD-TV-1800-OAK",
+      "name": "Nordhem Low TV Bench",
+      "brand": "Nordhem",
+      "category": "tv_unit",
+      "short_description": "180 cm low bench in oak and white with two drawers and two open bays.",
+      "description": "A long, low unit at just 40 cm tall so a wall-mounted or stand-mounted screen keeps a comfortable seated eye line. Two push-open drawers hide clutter, two open bays ventilate a console or receiver.",
+      "price": {
+        "amount": 549.0,
+        "sale_amount": 479.0,
+        "on_sale": true,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 180,
+        "depth": 40,
+        "height": 40
+      },
+      "weight_kg": 39.0,
+      "materials": [
+        "oak_veneer",
+        "mdf_lacquer"
+      ],
+      "primary_material": "oak_veneer",
+      "finish": "matte_lacquer",
+      "colors": [
+        {
+          "name": "Natural Oak",
+          "hex": "#D7BC94",
+          "family": "light_wood"
+        },
+        {
+          "name": "Chalk White",
+          "hex": "#F5F3EF",
+          "family": "white"
+        }
+      ],
+      "styles": [
+        "scandinavian",
+        "minimalist",
+        "japandi"
+      ],
+      "room_types": [
+        "living_room",
+        "bedroom",
+        "studio_apartment"
+      ],
+      "storage_type": "mixed",
+      "features": {
+        "drawers": 2,
+        "shelves": 2,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": true,
+        "assembly_required": true,
+        "assembly_minutes": 50
+      },
+      "attributes": {
+        "max_tv_inches": 75,
+        "max_load_kg": 50,
+        "open_bays": 2
+      },
+      "care": "Wipe clean.",
+      "rating": 4.7,
+      "reviews_count": 289,
+      "stock": {
+        "in_stock": true,
+        "quantity": 33,
+        "lead_time_days": 5
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/nrd-tv-1800-oak-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/nrd-tv-1800-oak-2/1200/900",
+          "https://picsum.photos/seed/nrd-tv-1800-oak-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/nordhem-low-tv-bench",
+      "tags": [
+        "tv unit",
+        "low",
+        "oak",
+        "drawers",
+        "cable management"
+      ]
+    },
+    {
+      "id": "TV-002",
+      "sku": "HLD-TV-1600-FLT",
+      "name": "Float Wall-mounted TV Unit",
+      "brand": "Halden",
+      "category": "tv_unit",
+      "short_description": "Wall-hung handle-less unit with two flap doors - no legs, no dust trap.",
+      "description": "A 160 cm floating cabinet in matte white with two push-to-open flap fronts and a routed cable channel. Mounts on a concealed rail; the floor beneath stays clear.",
+      "price": {
+        "amount": 399.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 160,
+        "depth": 32,
+        "height": 30
+      },
+      "weight_kg": 28.0,
+      "materials": [
+        "mdf_lacquer"
+      ],
+      "primary_material": "mdf_lacquer",
+      "finish": "matte_lacquer",
+      "colors": [
+        {
+          "name": "Chalk White",
+          "hex": "#F5F3EF",
+          "family": "white"
+        }
+      ],
+      "styles": [
+        "minimalist",
+        "contemporary",
+        "scandinavian"
+      ],
+      "room_types": [
+        "living_room",
+        "bedroom",
+        "studio_apartment"
+      ],
+      "storage_type": "tip_out_flap",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": true,
+        "extendable": false,
+        "cable_management": true,
+        "assembly_required": true,
+        "assembly_minutes": 60
+      },
+      "attributes": {
+        "max_tv_inches": 65,
+        "max_load_kg": 30,
+        "requires_solid_wall": true,
+        "doors": 2
+      },
+      "care": "Wipe clean; check mounting bolts yearly.",
+      "rating": 4.5,
+      "reviews_count": 196,
+      "stock": {
+        "in_stock": true,
+        "quantity": 58,
+        "lead_time_days": 3
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/hld-tv-1600-flt-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/hld-tv-1600-flt-2/1200/900",
+          "https://picsum.photos/seed/hld-tv-1600-flt-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/float-wall-mounted-tv-unit",
+      "tags": [
+        "tv unit",
+        "wall mounted",
+        "floating",
+        "small space",
+        "handle-less"
+      ]
+    },
+    {
+      "id": "TV-003",
+      "sku": "FBK-TV-1500-BLK",
+      "name": "Bruk Industrial TV Console",
+      "brand": "Fabrik No.7",
+      "category": "tv_unit",
+      "short_description": "Steel frame, reclaimed timber top, mesh sliding doors.",
+      "description": "A 150 cm console with a black steel frame, a reclaimed timber top and two perforated mesh sliding doors that let a remote signal through while hiding the boxes behind them.",
+      "price": {
+        "amount": 429.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 150,
+        "depth": 40,
+        "height": 50
+      },
+      "weight_kg": 44.0,
+      "materials": [
+        "powder_coated_steel",
+        "solid_pine"
+      ],
+      "primary_material": "powder_coated_steel",
+      "finish": "powder_coated",
+      "colors": [
+        {
+          "name": "Matte Black",
+          "hex": "#1B1B1B",
+          "family": "black"
+        },
+        {
+          "name": "Aged Pine",
+          "hex": "#A9825A",
+          "family": "warm_wood"
+        }
+      ],
+      "styles": [
+        "industrial",
+        "rustic_farmhouse",
+        "contemporary"
+      ],
+      "room_types": [
+        "living_room",
+        "studio_apartment"
+      ],
+      "storage_type": "closed_doors",
+      "features": {
+        "drawers": 0,
+        "shelves": 2,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": true,
+        "assembly_required": true,
+        "assembly_minutes": 45
+      },
+      "attributes": {
+        "max_tv_inches": 60,
+        "max_load_kg": 45,
+        "ir_transparent_doors": true,
+        "doors": 2
+      },
+      "care": "Wipe; re-wax timber yearly.",
+      "rating": 4.4,
+      "reviews_count": 127,
+      "stock": {
+        "in_stock": true,
+        "quantity": 29,
+        "lead_time_days": 6
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/fbk-tv-1500-blk-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/fbk-tv-1500-blk-2/1200/900",
+          "https://picsum.photos/seed/fbk-tv-1500-blk-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/bruk-industrial-tv-console",
+      "tags": [
+        "tv unit",
+        "industrial",
+        "mesh doors",
+        "reclaimed"
+      ]
+    },
+    {
+      "id": "TV-004",
+      "sku": "CSM-TV-1600-CAN",
+      "name": "Marrakesh Cane-front TV Cabinet",
+      "brand": "Casa Mira",
+      "category": "tv_unit",
+      "short_description": "Mango wood cabinet with four woven cane doors.",
+      "description": "A 160 cm cabinet in solid mango wood with four cane-webbed doors and a full-width cable cut-out. The weave breathes, so equipment behind it stays cool.",
+      "price": {
+        "amount": 589.0,
+        "sale_amount": 529.0,
+        "on_sale": true,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 160,
+        "depth": 40,
+        "height": 55
+      },
+      "weight_kg": 47.0,
+      "materials": [
+        "mango_wood",
+        "woven_cane"
+      ],
+      "primary_material": "mango_wood",
+      "finish": "natural_oil",
+      "colors": [
+        {
+          "name": "Honey Mango",
+          "hex": "#B07D49",
+          "family": "warm_wood"
+        }
+      ],
+      "styles": [
+        "bohemian",
+        "coastal",
+        "mid_century_modern"
+      ],
+      "room_types": [
+        "living_room",
+        "bedroom"
+      ],
+      "storage_type": "closed_doors",
+      "features": {
+        "drawers": 0,
+        "shelves": 2,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": true,
+        "assembly_required": true,
+        "assembly_minutes": 35
+      },
+      "attributes": {
+        "max_tv_inches": 65,
+        "max_load_kg": 40,
+        "doors": 4,
+        "ir_transparent_doors": true
+      },
+      "care": "Keep out of direct sun; oil the wood yearly.",
+      "rating": 4.6,
+      "reviews_count": 154,
+      "stock": {
+        "in_stock": true,
+        "quantity": 26,
+        "lead_time_days": 8
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/csm-tv-1600-can-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/csm-tv-1600-can-2/1200/900",
+          "https://picsum.photos/seed/csm-tv-1600-can-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/marrakesh-cane-front-tv-cabinet",
+      "tags": [
+        "tv unit",
+        "cane",
+        "boho",
+        "breathable"
+      ]
+    },
+    {
+      "id": "TV-005",
+      "sku": "IVR-TV-2000-CRM",
+      "name": "Onda Curved TV Unit",
+      "brand": "Ivora",
+      "category": "tv_unit",
+      "short_description": "200 cm unit with curved ends and a fluted high-gloss front.",
+      "description": "A long, low cabinet with radiused ends and vertical fluting across four push-open doors, in a warm cream high-gloss lacquer. Built for large screens up to 85 inches.",
+      "price": {
+        "amount": 899.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "premium"
+      },
+      "dimensions_cm": {
+        "width": 200,
+        "depth": 42,
+        "height": 45
+      },
+      "weight_kg": 62.0,
+      "materials": [
+        "mdf_lacquer"
+      ],
+      "primary_material": "mdf_lacquer",
+      "finish": "high_gloss",
+      "colors": [
+        {
+          "name": "Warm Cream",
+          "hex": "#F1EBE1",
+          "family": "off_white"
+        }
+      ],
+      "styles": [
+        "contemporary",
+        "art_deco",
+        "minimalist"
+      ],
+      "room_types": [
+        "living_room"
+      ],
+      "storage_type": "closed_doors",
+      "features": {
+        "drawers": 0,
+        "shelves": 2,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": true,
+        "assembly_required": true,
+        "assembly_minutes": 55
+      },
+      "attributes": {
+        "max_tv_inches": 85,
+        "max_load_kg": 60,
+        "doors": 4,
+        "curved_ends": true
+      },
+      "care": "Microfibre only; gloss scratches easily.",
+      "rating": 4.6,
+      "reviews_count": 67,
+      "stock": {
+        "in_stock": false,
+        "quantity": 0,
+        "lead_time_days": 28
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/ivr-tv-2000-crm-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/ivr-tv-2000-crm-2/1200/900",
+          "https://picsum.photos/seed/ivr-tv-2000-crm-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/onda-curved-tv-unit",
+      "tags": [
+        "tv unit",
+        "curved",
+        "fluted",
+        "large tv",
+        "85 inch"
+      ]
+    },
+    {
+      "id": "TV-006",
+      "sku": "HLD-TV-1000-OKE",
+      "name": "Mini Studio TV Stand",
+      "brand": "Halden",
+      "category": "tv_unit",
+      "short_description": "Compact 100 cm open stand for screens up to 43 inches.",
+      "description": "A simple two-tier open stand in oak-effect melamine on black metal legs. Assembles in fifteen minutes and moves with one person.",
+      "price": {
+        "amount": 129.0,
+        "sale_amount": 99.0,
+        "on_sale": true,
+        "bucket": "budget"
+      },
+      "dimensions_cm": {
+        "width": 100,
+        "depth": 35,
+        "height": 45
+      },
+      "weight_kg": 14.0,
+      "materials": [
+        "melamine_particleboard",
+        "powder_coated_steel"
+      ],
+      "primary_material": "melamine_particleboard",
+      "finish": "veneered",
+      "colors": [
+        {
+          "name": "Oak Effect",
+          "hex": "#D7BC94",
+          "family": "light_wood"
+        },
+        {
+          "name": "Matte Black",
+          "hex": "#1B1B1B",
+          "family": "black"
+        }
+      ],
+      "styles": [
+        "minimalist",
+        "scandinavian",
+        "industrial"
+      ],
+      "room_types": [
+        "studio_apartment",
+        "bedroom",
+        "home_office"
+      ],
+      "storage_type": "open_shelf",
+      "features": {
+        "drawers": 0,
+        "shelves": 1,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 15
+      },
+      "attributes": {
+        "max_tv_inches": 43,
+        "max_load_kg": 20,
+        "open_bays": 1
+      },
+      "care": "Wipe clean; keep the melamine dry at the edges.",
+      "rating": 4.0,
+      "reviews_count": 431,
+      "stock": {
+        "in_stock": true,
+        "quantity": 175,
+        "lead_time_days": 2
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/hld-tv-1000-oke-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/hld-tv-1000-oke-2/1200/900",
+          "https://picsum.photos/seed/hld-tv-1000-oke-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/mini-studio-tv-stand",
+      "tags": [
+        "tv unit",
+        "budget",
+        "small",
+        "studio",
+        "rental"
+      ]
+    },
+    {
+      "id": "TV-007",
+      "sku": "LMO-TV-1700-WAL",
+      "name": "Lumen Walnut Media Sideboard",
+      "brand": "Lumen & Oak",
+      "category": "tv_unit",
+      "short_description": "Mid-century sideboard doubling as a media unit, on brass-tipped legs.",
+      "description": "A 170 cm walnut sideboard with two doors, two drawers and a brass-tipped splayed leg base. Backs are cut out for cables so it works equally as a TV unit or a dining-room sideboard.",
+      "price": {
+        "amount": 799.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "premium"
+      },
+      "dimensions_cm": {
+        "width": 170,
+        "depth": 42,
+        "height": 58
+      },
+      "weight_kg": 55.0,
+      "materials": [
+        "walnut_veneer",
+        "brushed_brass"
+      ],
+      "primary_material": "walnut_veneer",
+      "finish": "satin_lacquer",
+      "colors": [
+        {
+          "name": "American Walnut",
+          "hex": "#5A3A22",
+          "family": "dark_wood"
+        },
+        {
+          "name": "Brushed Brass",
+          "hex": "#B08A46",
+          "family": "brass_gold"
+        }
+      ],
+      "styles": [
+        "mid_century_modern",
+        "traditional",
+        "contemporary"
+      ],
+      "room_types": [
+        "living_room",
+        "dining_room"
+      ],
+      "storage_type": "mixed",
+      "features": {
+        "drawers": 2,
+        "shelves": 2,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": true,
+        "assembly_required": true,
+        "assembly_minutes": 40
+      },
+      "attributes": {
+        "max_tv_inches": 65,
+        "max_load_kg": 55,
+        "doors": 2,
+        "dual_purpose": true
+      },
+      "care": "Coasters; avoid direct sunlight on the veneer.",
+      "rating": 4.8,
+      "reviews_count": 93,
+      "stock": {
+        "in_stock": true,
+        "quantity": 17,
+        "lead_time_days": 10
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/lmo-tv-1700-wal-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/lmo-tv-1700-wal-2/1200/900",
+          "https://picsum.photos/seed/lmo-tv-1700-wal-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/lumen-walnut-media-sideboard",
+      "tags": [
+        "tv unit",
+        "sideboard",
+        "walnut",
+        "mid century",
+        "dual purpose"
+      ]
+    },
+    {
+      "id": "SH-001",
+      "sku": "HLD-SH-700-WHT",
+      "name": "Slim Tip-out Shoe Cabinet",
+      "brand": "Halden",
+      "category": "shoe_storage",
+      "short_description": "Only 24 cm deep, two tip-out flaps, holds 12 pairs.",
+      "description": "A tall, narrow cabinet with two tip-out compartments that hold shoes on edge. At 24 cm deep it does not block a corridor, and the handle-less fronts wipe clean.",
+      "price": {
+        "amount": 199.0,
+        "sale_amount": 169.0,
+        "on_sale": true,
+        "bucket": "budget"
+      },
+      "dimensions_cm": {
+        "width": 70,
+        "depth": 24,
+        "height": 105
+      },
+      "weight_kg": 21.0,
+      "materials": [
+        "mdf_lacquer"
+      ],
+      "primary_material": "mdf_lacquer",
+      "finish": "matte_lacquer",
+      "colors": [
+        {
+          "name": "Chalk White",
+          "hex": "#F5F3EF",
+          "family": "white"
+        }
+      ],
+      "styles": [
+        "minimalist",
+        "scandinavian",
+        "contemporary"
+      ],
+      "room_types": [
+        "entryway",
+        "hallway",
+        "bedroom"
+      ],
+      "storage_type": "tip_out_flap",
+      "features": {
+        "drawers": 0,
+        "shelves": 0,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 45
+      },
+      "attributes": {
+        "capacity_pairs": 12,
+        "max_shoe_size_eu": 45,
+        "flaps": 2,
+        "anti_tip_kit_included": true,
+        "fits_boots": false
+      },
+      "care": "Wipe clean; ventilate occasionally.",
+      "rating": 4.3,
+      "reviews_count": 612,
+      "stock": {
+        "in_stock": true,
+        "quantity": 143,
+        "lead_time_days": 2
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/hld-sh-700-wht-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/hld-sh-700-wht-2/1200/900",
+          "https://picsum.photos/seed/hld-sh-700-wht-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/slim-tip-out-shoe-cabinet",
+      "tags": [
+        "shoe cabinet",
+        "slim",
+        "tip out",
+        "12 pairs",
+        "hallway"
+      ]
+    },
+    {
+      "id": "SH-002",
+      "sku": "NRD-SH-1000-OAK",
+      "name": "Nordhem Shoe Bench",
+      "brand": "Nordhem",
+      "category": "shoe_storage",
+      "short_description": "Oak bench with a linen seat pad and two open shoe racks below.",
+      "description": "A 100 cm oak bench at 48 cm seat height with a removable linen cushion and two slatted racks underneath for eight pairs. Somewhere to sit while you put shoes on, which is the actual problem in most entryways.",
+      "price": {
+        "amount": 249.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 100,
+        "depth": 35,
+        "height": 48
+      },
+      "weight_kg": 16.0,
+      "materials": [
+        "solid_oak",
+        "linen_fabric"
+      ],
+      "primary_material": "solid_oak",
+      "finish": "natural_oil",
+      "colors": [
+        {
+          "name": "Natural Oak",
+          "hex": "#D7BC94",
+          "family": "light_wood"
+        },
+        {
+          "name": "Oat Linen",
+          "hex": "#D9C7AE",
+          "family": "beige"
+        }
+      ],
+      "styles": [
+        "scandinavian",
+        "japandi",
+        "coastal"
+      ],
+      "room_types": [
+        "entryway",
+        "hallway",
+        "bedroom"
+      ],
+      "storage_type": "open_shelf",
+      "features": {
+        "drawers": 0,
+        "shelves": 2,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 25
+      },
+      "attributes": {
+        "capacity_pairs": 8,
+        "seat_height_cm": 48,
+        "max_seated_load_kg": 120,
+        "fits_boots": true
+      },
+      "care": "Cushion cover is machine washable at 30C.",
+      "rating": 4.7,
+      "reviews_count": 268,
+      "stock": {
+        "in_stock": true,
+        "quantity": 51,
+        "lead_time_days": 4
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/nrd-sh-1000-oak-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/nrd-sh-1000-oak-2/1200/900",
+          "https://picsum.photos/seed/nrd-sh-1000-oak-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/nordhem-shoe-bench",
+      "tags": [
+        "shoe bench",
+        "seating",
+        "oak",
+        "entryway",
+        "8 pairs"
+      ]
+    },
+    {
+      "id": "SH-003",
+      "sku": "FBK-SH-800-BLK",
+      "name": "Grid 5-Tier Shoe Rack",
+      "brand": "Fabrik No.7",
+      "category": "shoe_storage",
+      "short_description": "Open black steel rack, five tiers, up to 20 pairs.",
+      "description": "A welded black steel rack with five angled tiers. Fully open, so shoes dry and air, and the whole thing weighs under 8 kg.",
+      "price": {
+        "amount": 89.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "budget"
+      },
+      "dimensions_cm": {
+        "width": 80,
+        "depth": 30,
+        "height": 95
+      },
+      "weight_kg": 7.8,
+      "materials": [
+        "powder_coated_steel"
+      ],
+      "primary_material": "powder_coated_steel",
+      "finish": "powder_coated",
+      "colors": [
+        {
+          "name": "Matte Black",
+          "hex": "#1B1B1B",
+          "family": "black"
+        }
+      ],
+      "styles": [
+        "industrial",
+        "minimalist",
+        "contemporary"
+      ],
+      "room_types": [
+        "entryway",
+        "hallway",
+        "bedroom"
+      ],
+      "storage_type": "open_shelf",
+      "features": {
+        "drawers": 0,
+        "shelves": 5,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 20
+      },
+      "attributes": {
+        "capacity_pairs": 20,
+        "fits_boots": true,
+        "ventilated": true
+      },
+      "care": "Wipe; touch-up paint for chips.",
+      "rating": 4.2,
+      "reviews_count": 723,
+      "stock": {
+        "in_stock": true,
+        "quantity": 240,
+        "lead_time_days": 2
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/fbk-sh-800-blk-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/fbk-sh-800-blk-2/1200/900",
+          "https://picsum.photos/seed/fbk-sh-800-blk-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/grid-5-tier-shoe-rack",
+      "tags": [
+        "shoe rack",
+        "open",
+        "20 pairs",
+        "budget",
+        "ventilated"
+      ]
+    },
+    {
+      "id": "SH-004",
+      "sku": "IVR-SH-900-GRY",
+      "name": "Hall Shoe Cabinet with Mirror Door",
+      "brand": "Ivora",
+      "category": "shoe_storage",
+      "short_description": "Full-height cabinet, 18 pairs, with a full-length mirror on the door.",
+      "description": "A 180 cm tall cabinet in warm grey lacquer with adjustable shelves for 18 pairs, including a boot bay, and a full-length mirror across the right door.",
+      "price": {
+        "amount": 449.0,
+        "sale_amount": 399.0,
+        "on_sale": true,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 90,
+        "depth": 35,
+        "height": 180
+      },
+      "weight_kg": 58.0,
+      "materials": [
+        "mdf_lacquer"
+      ],
+      "primary_material": "mdf_lacquer",
+      "finish": "satin_lacquer",
+      "colors": [
+        {
+          "name": "Warm Grey",
+          "hex": "#B5AC9E",
+          "family": "greige"
+        }
+      ],
+      "styles": [
+        "contemporary",
+        "minimalist",
+        "traditional"
+      ],
+      "room_types": [
+        "entryway",
+        "hallway",
+        "bedroom"
+      ],
+      "storage_type": "closed_doors",
+      "features": {
+        "drawers": 0,
+        "shelves": 6,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 70
+      },
+      "attributes": {
+        "capacity_pairs": 18,
+        "fits_boots": true,
+        "mirror": true,
+        "doors": 2,
+        "anti_tip_kit_included": true,
+        "adjustable_shelves": true
+      },
+      "care": "Glass cleaner on the mirror, damp cloth elsewhere.",
+      "rating": 4.6,
+      "reviews_count": 186,
+      "stock": {
+        "in_stock": false,
+        "quantity": 0,
+        "lead_time_days": 14
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/ivr-sh-900-gry-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/ivr-sh-900-gry-2/1200/900",
+          "https://picsum.photos/seed/ivr-sh-900-gry-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/hall-shoe-cabinet-mirror-door",
+      "tags": [
+        "shoe cabinet",
+        "mirror",
+        "18 pairs",
+        "tall",
+        "boots"
+      ]
+    },
+    {
+      "id": "SH-005",
+      "sku": "CSM-SH-900-RAT",
+      "name": "Kiona Rattan Shoe Console",
+      "brand": "Casa Mira",
+      "category": "shoe_storage",
+      "short_description": "Console-height shoe unit with cane doors and a display top.",
+      "description": "At 80 cm tall this works as an entryway console with a usable top surface, while two cane doors hide nine pairs below. Solid mango wood frame.",
+      "price": {
+        "amount": 269.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "mid"
+      },
+      "dimensions_cm": {
+        "width": 90,
+        "depth": 33,
+        "height": 80
+      },
+      "weight_kg": 24.0,
+      "materials": [
+        "mango_wood",
+        "woven_cane"
+      ],
+      "primary_material": "mango_wood",
+      "finish": "natural_oil",
+      "colors": [
+        {
+          "name": "Honey Mango",
+          "hex": "#B07D49",
+          "family": "warm_wood"
+        }
+      ],
+      "styles": [
+        "bohemian",
+        "coastal",
+        "mid_century_modern"
+      ],
+      "room_types": [
+        "entryway",
+        "hallway",
+        "bedroom"
+      ],
+      "storage_type": "closed_doors",
+      "features": {
+        "drawers": 0,
+        "shelves": 2,
+        "wall_mounted": false,
+        "extendable": false,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 30
+      },
+      "attributes": {
+        "capacity_pairs": 9,
+        "fits_boots": false,
+        "doors": 2,
+        "ventilated": true,
+        "console_height": true
+      },
+      "care": "Keep out of direct sun; oil yearly.",
+      "rating": 4.5,
+      "reviews_count": 121,
+      "stock": {
+        "in_stock": true,
+        "quantity": 43,
+        "lead_time_days": 5
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/csm-sh-900-rat-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/csm-sh-900-rat-2/1200/900",
+          "https://picsum.photos/seed/csm-sh-900-rat-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/kiona-rattan-shoe-console",
+      "tags": [
+        "shoe cabinet",
+        "cane",
+        "console height",
+        "boho",
+        "9 pairs"
+      ]
+    },
+    {
+      "id": "SH-006",
+      "sku": "HLD-SH-CUBE-X4",
+      "name": "Stackable Shoe Cubes (Set of 4)",
+      "brand": "Halden",
+      "category": "shoe_storage",
+      "short_description": "Four modular open cubes that stack or line up along a wall.",
+      "description": "Four 60 x 30 x 30 cm melamine cubes with interlocking pins. Stack them two high in a corner, or run all four along a wall as a low bench-height shelf.",
+      "price": {
+        "amount": 59.0,
+        "sale_amount": null,
+        "on_sale": false,
+        "bucket": "budget"
+      },
+      "dimensions_cm": {
+        "width": 60,
+        "depth": 30,
+        "height": 30
+      },
+      "weight_kg": 12.0,
+      "materials": [
+        "melamine_particleboard"
+      ],
+      "primary_material": "melamine_particleboard",
+      "finish": "veneered",
+      "colors": [
+        {
+          "name": "Chalk White",
+          "hex": "#F5F3EF",
+          "family": "white"
+        },
+        {
+          "name": "Oak Effect",
+          "hex": "#D7BC94",
+          "family": "light_wood"
+        }
+      ],
+      "styles": [
+        "minimalist",
+        "scandinavian"
+      ],
+      "room_types": [
+        "entryway",
+        "hallway",
+        "bedroom",
+        "studio_apartment"
+      ],
+      "storage_type": "open_shelf",
+      "features": {
+        "drawers": 0,
+        "shelves": 4,
+        "wall_mounted": false,
+        "extendable": true,
+        "cable_management": false,
+        "assembly_required": true,
+        "assembly_minutes": 40
+      },
+      "attributes": {
+        "capacity_pairs": 8,
+        "pieces": 4,
+        "stackable": true,
+        "fits_boots": false
+      },
+      "care": "Wipe; keep edges dry.",
+      "rating": 4.0,
+      "reviews_count": 348,
+      "stock": {
+        "in_stock": true,
+        "quantity": 198,
+        "lead_time_days": 2
+      },
+      "images": {
+        "main": "https://picsum.photos/seed/hld-sh-cube-x4-1/1200/900",
+        "gallery": [
+          "https://picsum.photos/seed/hld-sh-cube-x4-2/1200/900",
+          "https://picsum.photos/seed/hld-sh-cube-x4-3/1200/900"
+        ],
+        "credits": []
+      },
+      "product_url": "https://casanord.example.com/p/stackable-shoe-cubes",
+      "tags": [
+        "shoe storage",
+        "modular",
+        "stackable",
+        "budget",
+        "odd spaces"
+      ]
+    },
+    {
+  "id": "TV-008",
+  "sku": "TVL-TV-2200-WAL",
+  "name": "Walnut Cane TV Console",
+  "brand": "Tavla",
+  "category": "tv_unit",
+  "short_description": "Long wooden TV console with six drawers and two central cane-front cabinet doors.",
+  "description": "A wide warm-walnut TV console featuring six wood-front drawers, two central cabinet doors with woven cane/rattan panels, dark round knobs, and a raised plinth-style base. The design combines traditional wood detailing with natural woven cane for a warm, contemporary look.",
+  "price": {
+    "amount": 499.0,
+    "sale_amount": null,
+    "on_sale": false,
+    "bucket": "premium"
+  },
+  "dimensions_cm": {
+    "width": 220,
+    "depth": 45,
+    "height": 60
+  },
+  "weight_kg": 58.0,
+  "materials": [
+    "walnut_veneer",
+    "woven_cane"
+  ],
+  "primary_material": "walnut_veneer",
+  "finish": "veneered",
+  "colors": [
+    {
+      "name": "Walnut Brown",
+      "hex": "#8B4F2A",
+      "family": "warm_wood"
+    },
+    {
+      "name": "Natural Cane",
+      "hex": "#D8B878",
+      "family": "light_wood"
+    },
+    {
+      "name": "Black Hardware",
+      "hex": "#1A1A1A",
+      "family": "black"
+    }
+  ],
+  "styles": [
+    "mid_century_modern",
+    "bohemian",
+    "contemporary",
+    "coastal"
+  ],
+  "room_types": [
+    "living_room"
+  ],
+  "storage_type": "mixed",
+  "features": {
+    "drawers": 6,
+    "shelves": 0,
+    "wall_mounted": false,
+    "extendable": false,
+    "cable_management": false,
+    "assembly_required": true,
+    "assembly_minutes": 40
+  },
+  "attributes": {
+    "doors": 2,
+    "data_confidence": "estimated_from_reference_image",
+    "source_note": "Generated from a photo (tb1.PNG), not a manufacturer spec sheet. weight_kg, rating, stock and product_url are placeholders - replace with real data before this product is trusted."
+  },
+  "care": "Dust with a soft dry cloth. Wipe spills promptly with a slightly damp cloth and avoid prolonged moisture on the wood or cane surfaces.",
+  "rating": 0,
+  "reviews_count": 0,
+  "stock": {
+    "in_stock": false,
+    "quantity": 0,
+    "lead_time_days": 14
+  },
+  "images": {
+    "main": "F:\\projects\\recommend-products\\tb1.PNG",
+    "gallery": [
+      "F:\\projects\\recommend-products\\tb1.PNG"
+    ],
+    "credits": []
+  },
+  "product_url": "F:\\projects\\recommend-products\\tb1.PNG",
+  "tags": [
+    "tv console",
+    "tv stand",
+    "media console",
+    "walnut",
+    "wood",
+    "cane",
+    "rattan",
+    "woven doors",
+    "six drawers",
+    "living room furniture",
+    "natural materials"
+  ]
+}
+  ]
+}

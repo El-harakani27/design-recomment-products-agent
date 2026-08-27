@@ -8,3 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Secrets
+.env
+
+# Generated
+data/catalog.db
+
+# Test images
+*.jpg
+*.png
